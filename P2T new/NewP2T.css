@@ -1,0 +1,31 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+.SiteContainer{
+    background: white;
+    display: flex;
+}
+.Input{
+    position: relative;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height:cover;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.Output{
+    position: relative;
+    display: flex;
+    gap:10px;
+    flex-direction:column;
+    background-color:aqua;
+    max-width: 1000px;
+    max-height: 500px;
+    
+}
+select,option{
+    text-align: center;
+}

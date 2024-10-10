@@ -1,0 +1,21 @@
+h2 {
+    color: #0400ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center
+  }
+  * {
+    text-align:center
+  }
+  img {
+    text-align: left
+  }
+  html{
+  background-image: linear-gradient(black, white);
+  background: url('C:\Users\pc\Desktop\photo_2024-04-03_20-35-21.jpg');
+  }
+
+    h1, h2, h3 {
+        font-family: 'Times New Roman', sans-serif;
+      }
+  

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="NewP2T.css">
+</head>
+
+
+
+<body>
+    <div class = "SiteContainer">
+        <div class = "Output">
+            <div class = "OD">
+                <p>Внешний диаметр:</p>
+            </div>
+            <div class = "IP">
+                <p>Внутреннее давление:</p>
+            </div>
+            <div class = "TW">
+                <p>Толщина стенки:</p>
+            </div>
+            <div class = "PT">
+                <p>Предел текучести материала трубопровода:</p>
+            </div>
+            <div class = "PP">
+                <p>Предел прочности материала трубопровода:</p>
+            </div>
+        </div>
+
+        <div class = "Input">
+            <div class = "flex-element">
+            <div class = "UoM">
+                <p>Единицы измерения:</p>
+                <div class ="ButtonsUoM">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>Пользовательская</option>
+                     </select>
+                  <input  type="number" placeholder="Пользовательское значение:" id="UoMpolz" class="UoMpolz" min="1" max="10000" />
+                </div>
+            </div>
+        </div>
+        <div class = "flex-element">
+
+            <div class = "GD">
+                <p>Геометрические размеры:</p>
+                <div class ="ButtonsGD">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>Пользовательская</option>
+                     </select>
+                  <input  type="number" placeholder="Пользовательское значение:" id="GDpolz" class="GDpolz" min="1" max="10000" />
+                </div>
+            </div>
+            </div>
+
+<div class = "flex-element">
+            <div class = "Tns">
+                <p>Напряжения:</p>
+                <div class ="ButtonsTns">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="Tnspolz" class="Tnspolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "TechDoc">
+                <p>Нормативно-технический документ:</p>
+                <div class ="ButtonsTechDoc">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="TechDocpolz" class="TechDocpolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "Pump">
+                <p>Перекачеваемая среда:</p>
+                <div class ="ButtonsPump">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="Pumppolz" class="Pumppolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "PlC">
+                <p>Категория трубопровода:</p>
+                <div class ="ButtonsPlC">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="PlCpolz" class="PlCpolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "CM">
+                <p>Коэффициент условий работы трубопровода m:</p>
+                <div class ="ButtonsCM">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="CMpolz" class="CMpolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "CN">
+                <p>Коэффициент надежности по нагрузке n:</p>
+                <div class ="ButtonsCN">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="CNpolz" class="CNpolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "Ck1">
+                <p>Коэффициент надежности по материалу k1:</p>
+                <div class ="ButtonsCk1">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="Ck1polz" class="Ck1polz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "Ck2">
+                <p>Коэффициент надежности по материалу k2:</p>
+                <div class ="ButtonsCk2">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="Ck2polz" class="Ck2polz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+<div class = "flex-element">
+            <div class = "Ckn">
+                <p>Коэффициент надежности по ответственности трубопровода kн:</p>
+                <div class ="ButtonsCkn">
+                    <select>
+                        <option selected class="selected">Выберите категорию:</option>
+                        <option>1</option>
+                        <option>2</option>  
+                        <option>Пользовательская</option>
+                    </select>
+                     <input  type="number" placeholder="Пользовательское значение:" id="Cknpolz" class="Cknpolz" min="1" max="10000" />
+                </div>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+
+
+</html>

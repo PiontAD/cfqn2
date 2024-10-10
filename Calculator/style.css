@@ -1,0 +1,155 @@
+h2 {
+    color: #0400ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left
+  }
+  * {
+    text-align:left
+  }
+  img {
+    text-align: left
+  }
+  html{
+  background-image: linear-gradient(black, white);
+  background: url("C:\Users\pc\Desktop\photo_2024-04-03_20-35-21.jpg");
+  }
+
+    h1, h2, h3 {
+        font-family: 'Times New Roman', sans-serif;
+      }
+      div {
+        background-image: url("C:\Users\pc\Desktop\proga\Hzz\Hudson.png.png");
+      }
+      .circl {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .crcl {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .crcl-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .crcl-content a {
+        color: rgb(7, 40, 255);
+        padding: 12px 16px;
+        font-size: 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .crcl-content a:hover {background-color: #6ec2d0;}
+    
+    /* Show the dropdown menu on hover */
+    .crcl:hover .crcl-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .crcl:hover .circl {background-color: #2b00ff;}
+/*
+*/
+
+    .sqare {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .sqr {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .sqr-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .sqr-content a {
+        color: rgb(7, 40, 255);
+        padding: 12px 16px;
+        font-size: 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .sqr-content a:hover {background-color: #6ec2d0;}   
+    
+    /* Show the dropdown menu on hover */
+    .sqr:hover .sqr-content {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .sqr:hover .sqare {background-color: #2b00ff;}
+
+   
+    button {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        padding: 8px 16px;
+        border: none;
+        background-color: #007bff; /* Цвет фона кнопки */
+        color: white; /* Цвет текста */
+        cursor: pointer; /* Добавляем курсор в виде руки при наведении */
+        transition: all 0.3s ease-in-out; /* Время перехода между состояниями */
+    }
+    
+    button::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
+        transform: scaleX(0); /* Начальное состояние, когда кнопка неактивна */
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    /* Стилизация при наведении */
+    button:hover {
+        background-color: #0069d9; /* Цвет фона при наведении */
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Тени */
+        transform: translateY(-4px); /* Перемещение кнопки вниз при наведении */
+    }
+    
+    button:hover::before {
+        transform: scaleX(1); /* При наведении меняем ширину псевдоэлемента */
+    }
+    
+    /* Стилизация при клике */
+    button:active {
+        background-color: #0062cc; /* Цвет фона при нажатии */
+        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2); /* Увеличиваем тени */
+        transform: translateY(4px); /* Перемещаем кнопку вверх при нажатии */
+    }
+    
+    button:active::before {
+        transform: scaleX(1); /* Сохраняем эффект при нажатии */
+    }

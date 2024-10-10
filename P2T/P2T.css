@@ -1,0 +1,345 @@
+
+    * {
+        font-family: 'Times New Roman', sans-serif;
+        
+      }
+      body {
+
+        background: #ffffff url(.jpg); /* Фоновый цвет и фоновый рисунок*/
+    color: #4800ff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x;
+    }
+    select {
+        appearance: none;
+        padding: 0.5rem 0.5rem;
+        width: 16rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        font-weight: 200;
+        background:#000dff;
+        color: #fff;
+        border: none;
+        outline: none;
+        border:.3rem solid #000dff;
+        border-radius: 0.5rem;
+        position: absolute;
+        left:900px;
+        top:500px
+    }
+    select:hover{
+        border: .3rem solid #2651ff;
+        cursor:pointer
+    }
+    select option{
+        font-size: 1.2 rem;
+        font-weight: 200;
+        background:rgb(46, 74, 255)  
+    }
+    .selected{
+        display: none;  
+    }
+
+    .K2{
+        position: absolute;
+        top: -20px;
+    }
+    .K1{
+        position: absolute;
+        top: -80px;
+     
+    }
+    .polz{
+        position: absolute;
+        padding: 0.5rem 0.5rem;
+        width: 16rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 200;
+        left: 1175px;
+        top:500px;
+        background: #000dff
+    }
+
+    ::placeholder{
+        font-size: smaller;
+        color: #fff;
+    }
+
+    input{
+        color: #fff;
+    }
+
+   input[type='number'] {
+        color: #fff;
+        border: none;
+        outline: none;
+        border:.3rem solid #000dff;
+        border-radius: 0.5rem;
+        position: absolute;
+    }
+
+    .help-tips{
+        position: relative;
+        top:425px;
+        left:500px;
+    }
+    .help-tip{
+        position: absolute;
+        top:50px;
+        width: 25rem;
+        height: 2rem;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+       
+    }
+    .help-tip::before{
+        content: 'Коэфицент по надежности материала k2:';
+        font-size: 1.4em;
+      
+    }
+    .help-tip p{
+        background-color: #000dff;
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        width: 36rem;
+        display: none;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow:0 0 20px rgba(0, 0, 0, .8);
+        z-index:1000;
+        transform: translate(-52.5%,15%);
+        position: absolute;
+        top: 10px;
+        left:50% 
+    }
+
+    .help-tip p::before{
+        position: absolute;
+        content:'';
+        width: 0;
+        height: 0;
+        border:10px solid transparent;
+        border-bottom-color:#000dff ;
+        top:-18px;
+        left:300px;
+        
+    }
+.help-tip:hover p{
+    display: block  ;
+}
+
+.help-tip2{
+    position: absolute;
+    width: 25rem;
+    height: 2rem;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+   
+}
+
+.help-tip2::before{
+    content: 'Коэфицент по надежности материала k1:';
+    font-size: 1.4em;
+}
+
+.help-tip2 p{
+    background-color: #000dff;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    width: 15rem;
+    display: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow:0 0 20px rgba(0, 0, 0, .8);
+    z-index:1000;
+    transform: translate(-52.5%,15%);
+    position: absolute;
+    top:10px;
+    left:50%
+    
+    
+}
+
+.help-tip2 p::before{
+    position: absolute;
+    content:'';
+    width: 0;
+    height: 0;
+    border:10px solid transparent;
+    border-bottom-color:#000dff ;
+    top:-18px;
+    left:130px;
+    
+}
+.help-tip2:hover p{
+display: block  ;
+}
+
+.N{
+    position: absolute;
+    box-sizing: border-box;
+    top:300px;
+    left:490px;
+    font-size: 1.4em;
+    
+}
+
+
+.M{
+    position: absolute;
+    box-sizing: border-box;
+    top:250px;
+    left:490px;
+    font-size: 1.4em;
+    
+}
+
+.Kn{
+    position: absolute;
+    box-sizing: border-box;
+    top:460px;
+    left:490px;
+    font-size: 1.4em;
+}
+
+.Pipe{
+    position: absolute;
+    box-sizing: border-box;
+    top:200px;
+    left:490px;
+    font-size: 1.4em;
+}
+.Pump{
+    position: absolute;
+    box-sizing: border-box;
+    top:150px;
+    left:490px;
+    font-size: 1.4em;
+}
+.Docs{
+    position: absolute;
+    box-sizing: border-box;
+    top:100px;
+    left:490px;
+    font-size: 1.4em;
+}
+.Tensions{
+    position: absolute;
+    box-sizing: border-box;
+    top:50px;
+    left:490px;
+    font-size: 1.4em;
+}
+.Dismensions{
+    position: absolute;
+    box-sizing: border-box;
+    top:0px;
+    left:490px;
+    font-size: 1.4em;
+}
+.Measurement{
+    position: absolute;
+    box-sizing: border-box;
+    top:-50px;
+    left:490px;
+    font-size: 1.4em;
+}
+
+.Txt{
+    position: relative;
+    top:50px;
+}
+
+.Layout{
+    position: relative;
+    overflow: hidden;
+ 
+}
+/*
+.СircExtBlc{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+.СircExtWht{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.CircIntBlc{
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.CircIntWht{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.MsrLine{
+    width: 3px;
+    height: 145px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+   
+}
+.Triangle1{
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-bottom:20px solid black;
+    position: absolute;
+    top:158px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.Triangle2{
+    width: 0;
+    height: 0;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    border-top:20px solid black;
+    position: absolute;
+    top:-12px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+*/
+.SiteContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+  
+  }
+
+  p{
+    white-space: nowrap;
+  }
